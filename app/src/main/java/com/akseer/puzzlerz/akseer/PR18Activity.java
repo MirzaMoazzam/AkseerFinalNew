@@ -400,6 +400,11 @@ public class PR18Activity extends AppCompatActivity {
 
 
     public void openHCP(View view) {
-        startActivity(new Intent(PR18Activity.this,HCP9.class));
+     //
+        //
+        //
+        //
+        //
+        //startActivity(new Intent(PR18Activity.this,HCP9.class));
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:clickable="true"
+    android:clickable="false"
     tools:layout_editor_absoluteY="81dp">
 
 
@@ -95,7 +95,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="false">
 
             <ListView
                 android:id="@+id/list"
@@ -104,6 +105,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/tabHost"
                 android:layout_weight="1"
+                android:clickable="false"
                 app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
                 tools:layout_editor_absoluteX="34dp"></ListView>
         </TableRow>

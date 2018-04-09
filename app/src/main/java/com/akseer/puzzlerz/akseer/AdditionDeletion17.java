@@ -378,9 +378,9 @@ img.setImageBitmap(b);*/
                 public void onItemClick(AdapterView<?> parent, View view, int position,
                                         long id) {
 
-                    Intent intent = new Intent(AdditionDeletion17.this , BrokerInsightActivity20.class);
-                    intent.putExtra("stdData" , 1);    //do this for all data objects
-                    startActivity(intent);
+                 //   Intent intent = new Intent(AdditionDeletion17.this , BrokerInsightActivity20.class);
+                  //  intent.putExtra("stdData" , 1);    //do this for all data objects
+                  //  startActivity(intent);
 
                 }
             });

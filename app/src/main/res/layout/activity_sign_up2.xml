@@ -101,18 +101,20 @@
                     android:imeActionId="6"
                     android:imeActionLabel=""
                     android:imeOptions="actionUnspecified"
-                    android:inputType="text"
+                    android:inputType="textPersonName"
                     android:maxLines="1"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
                     android:singleLine="true" />
 
                 <EditText
                     android:id="@+id/lastName"
                     android:layout_width="204dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
                     android:layout_height="match_parent"
                     android:imeActionId="6"
                     android:imeActionLabel=""
                     android:imeOptions="actionUnspecified"
-                    android:inputType="text"
+                    android:inputType="textPersonName"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -146,7 +148,7 @@
                     android:imeActionId="6"
                     android:imeActionLabel=""
                     android:imeOptions="actionUnspecified"
-                    android:inputType="text"
+                    android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -177,12 +179,13 @@
 
                 <EditText
                     android:id="@+id/code"
-                    android:layout_width="46dp"
+                    android:layout_width="55dp"
                     android:layout_height="match_parent"
                     android:imeActionId="6"
                     android:imeActionLabel=""
                     android:imeOptions="actionUnspecified"
-                    android:inputType="number"
+                    android:inputType="phone"
+                    android:maxLength="4"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -194,6 +197,7 @@
                     android:imeActionLabel=""
                     android:imeOptions="actionUnspecified"
                     android:inputType="phone"
+                    android:maxLength="7"
                     android:maxLines="1"
                     android:singleLine="true" />
 
