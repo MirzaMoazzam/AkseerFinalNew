@@ -4,11 +4,10 @@
     >
 
     <item
-        android:id="@+id/News"
-        android:icon="@drawable/newsicon"
-        android:title="News"
+        android:id="@+id/Akseer"
+        android:icon="@drawable/akseericon"
+        android:title="Akseer"
         android:enabled="true"
-
 
         />
     <item
@@ -20,10 +19,12 @@
 
         />
     <item
-        android:id="@+id/Akseer"
-        android:icon="@drawable/akseericon"
-        android:title="Akseer"
+
+        android:id="@+id/News"
+        android:icon="@drawable/newsicon"
+        android:title="News"
         android:enabled="true"
+
 
 
         />
